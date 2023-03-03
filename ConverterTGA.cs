@@ -1,8 +1,8 @@
 ﻿namespace TPLUtil
 {
-    public class Converter
+    public class ConverterTGA
     {
-        public void ConvertToTGA(string args)
+        public void TPLtoTGA(string args)
         {
             // Load tpl file
             BinaryReader br = new(File.Open(args, FileMode.Open));

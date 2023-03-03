@@ -1,16 +1,20 @@
 ﻿// Global variables
 using TPLUtil;
 
-if (args[1] == "extract-tpl")
-{
-    ExtractTextures();
-}
-else if (args[1] == "convert-tga")
-{
-    // Converting
-    Converter converter = new();
-    converter.ConvertToTGA(args[0]);
-}
+//if (args[1] == "extract-tpl")
+//{
+//    ExtractTextures();
+//}
+//else if (args[1] == "convert-tga")
+//{
+//    // Converting
+//    ConverterTGA converter = new();
+//    converter.ConvertToTGA(args[0]);
+//}
+
+ConverterBMP ConverterBMP = new();
+ConverterBMP.TPLtoBMP();
+ConverterBMP.BMPtoTPL();
 
 void ExtractTextures()
 {

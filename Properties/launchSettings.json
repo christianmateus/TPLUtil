@@ -2,7 +2,7 @@
   "profiles": {
     "TPLUtil": {
       "commandName": "Project",
-      "commandLineArgs": "*.SMD\r\nextract-tpl"
+      //"commandLineArgs": "*.SMD\r\nextract-tpl"
     }
   }
 }
